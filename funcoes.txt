@@ -1,0 +1,13 @@
+FREAD : 
+size_t fread(void *ptr, size_t size, size_t nmemb, FILE *stream)
+ptr − This is the pointer to a block of memory with a minimum size of size*nmemb bytes.
+size − This is the size in bytes of each element to be read.
+nmemb − This is the number of elements, each one with a size of size bytes.
+stream − This is the pointer to a FILE object that specifies an input stream.
+
+---
+
+FSEEK : int fseek(FILE *stream, long int offset, int whence)
+stream − This is the pointer to a FILE object that identifies the stream.
+offset − This is the number of bytes to offset from whence.
+whence − This is the position from where offset is added. It is specified by one of the following constants −
