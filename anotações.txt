@@ -1,0 +1,4 @@
+As imagens em bitmap ( bmp ) são usam 24 bits por pixel, sendo que 8 pixeis guardam infomações do red, 
+green, blue ( RGB ). No método Lsb de esteganografia usamos o último dígito de cada bit para armazenar
+informações. Isso funciona, pois o olho humano não consegue notar nenhuma diferença se a gente mudar 
+esse útimo bit de cada byte ( RGB ). 
